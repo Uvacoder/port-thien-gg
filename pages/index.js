@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Layout from '../components/Layout'
 import Card from '../components/Card'
+import HeroWelcome from '../components/HeroWelcome'
+import ThienHero from '../components/ThienHero'
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       </Head>
 
       <div className='flex flex-col content-center'>
+        <ThienHero/>
         <h1>thientran.me</h1>
         <p>this is my homepage.</p>
 

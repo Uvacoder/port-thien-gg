@@ -4,7 +4,7 @@ const about = () => {
     return (
         <>
             <h1>about</h1>
-        
+            <p>currently learning reactjs, nextjs, tailwindcss</p>
         </>
     )
 }
