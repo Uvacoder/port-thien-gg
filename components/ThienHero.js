@@ -1,13 +1,19 @@
 
 const ThienHero = () => {
   return (
-    <div className="grid grid-cols-2 justify-center content-center">
-      <div className='xyz-in bg-red-300 text-2xl text-center p-2 w-12 h-12'
-      xyz='fade up in-left in-rotate-left out-right out-rotate-right'>T</div>
-      <div>H</div>
-      <div>I</div>
-      <div>E</div>
-      <div>N</div>
+    <div className="justify-center content-center flex">
+      <div className=' bg-red-400 text-2xl text-center m-2 p-2 w-12 h-12 animate-bounce-slower rounded-full transition-all
+                            cursor-default'>T</div>
+      <div className=' bg-yellow-400 text-2xl text-center m-2 p-2 w-12 h-12 animate-bounce-slow rounded-full
+                              cursor-default'>H</div>
+      <div className=' bg-green-400 text-2xl text-center m-2 p-2 w-12 h-12 animate-bounce-slowest rounded-full
+                          cursor-default'>I</div>
+      <div className=' bg-blue-400 text-2xl text-center m-2 p-2 w-12 h-12 animate-bounce-slow rounded-full 
+                          cursor-default'>E</div>
+      <div className=' bg-indigo-400 text-2xl text-center m-2 p-2 w-12 h-12 animate-bounce rounded-full
+                          cursor-default'>N</div>
+
+
 
     </div>
   )
